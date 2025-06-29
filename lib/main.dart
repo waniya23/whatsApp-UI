@@ -1,3 +1,5 @@
+//import 'package:demo_clone/screens/home/homeScreen.dart';
+
 import 'screens/splash/splashScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -12,11 +14,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'watsapp',
+      title: 'whatsapp',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF00A884)),
         useMaterial3: false,
+        fontFamily: "Regular"
       ),
       home: SplashScreen(),
     );

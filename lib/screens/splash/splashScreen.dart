@@ -5,6 +5,8 @@ import 'package:demo_clone/widgets/uiHelper.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget{
+  const SplashScreen({super.key});
+
   @override
   State<SplashScreen> createState() {
    return SplashScreenState();
